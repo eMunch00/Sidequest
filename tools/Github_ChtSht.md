@@ -14,6 +14,8 @@
     * **Syntax:** "Make Directory." Creates a new folder with the specified name in your current location.
 * `touch [FILE_NAME]`
     * **Syntax:** "Touch." Creates a new, empty file with the specified name and extension (e.g., `.md`).
+* `mv [old_folder/file_name] [new_folder/folder_name]`
+    * **Syntax:** "move." can be used to rename files or folders by targeting the current file/folder and specifying its desired name.
 * `rm -r [FOLDER_NAME]`
     * **Syntax:** "Remove Recursive." Deletes a folder and everything inside it. **Note:** Use with caution.
 * `rm -rf .git`
@@ -33,8 +35,10 @@
 *Commits must be staged 'add' then committed 'commit -m'*
 * `git status`
     * **Syntax:** "Status." Shows which files have been modified (Red), staged (Green), or are currently untracked by Git.
-* `git add [FILE_NAME]`
-    * **Syntax:** "Add." stages file to prepare for a commit. Use `git add .` for all files.
+* `git add [FILE_NAME]`{Targeted stage of one file}
+* `git add .` {stages all files & folders in current directory}
+* `git add -A` {stages ALL files & folder in entire branch}
+* **Syntax:** "Add." stages file to prepare for a commit.
 * `git commit -m "[YOUR_MESSAGE]"`
     * **Syntax:** "Commit with Message." Permanently etches the staged changes into the local ledger with a descriptive note.
 * `git log --oneline`
