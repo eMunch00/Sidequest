@@ -1,5 +1,6 @@
+[Link_back_to_Directory_Page](./README.md)
 # 🛡️ GIT & BASH CHEATSHEET
-
+![GitCS_Header](./Git_CS_Header.jpg)
 ## 📂 General (Navigation & File Management)
 *These can be used in any CMD Bash:*
 * `pwd`

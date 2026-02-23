@@ -1,5 +1,6 @@
+[Link_back_to_Directory_Page](./README.md)
 # 🚀 NEW PROJECT STARTUP CHECKLIST
-
+![GitPS_Header](./Git_PS_Header.jpg)
 ## STEP 1: Initialize Local Workspace
 * **Open Terminal / Git Bash**
     * Navigate to your parent directory: `cd Documents/`
