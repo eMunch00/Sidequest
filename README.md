@@ -4,7 +4,7 @@
 * *Use the following links to navigate to respective notes*
 
 * General Notes & Bash Prompts:
-1. [Command-Termina/Bash](CMDBash.md)
+1. [Command-Terminal/Bash](CMDBash.md)
 2. [Markdown_Language](MD-Language.md)
 * GitHub Notes:
 1. [Github_Cheat-Sheet](Github_ChtSht.md)
