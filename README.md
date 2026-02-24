@@ -1,5 +1,5 @@
 # PROJECT SIDE QUEST
-![SideQuest](./SideQuest.jpg)
+![SideQuest](./SideQuest_Header.jpeg)
 * **Notes and SOPs for Beginning coders**
 * *Use the following links to navigate to respective notes*
 

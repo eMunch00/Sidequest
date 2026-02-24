@@ -1,6 +1,6 @@
 [Link_back_to_Directory_Page](./README.md)
 # CMD BASH COMMANDS
-![CMD_Header](CMD_Header.jpg)
+![CMD_Header](./CMD_Header.jpeg)
 * *The following are common commands for use in Bash Terminals*
 ## 📂 Directory: Contents
 *These can be used in any CMD Bash:*

@@ -1,7 +1,6 @@
 * [Link_back_to_Directory_Page](./README.md)
-# :bookmark: Markdown Language Syntax:
-![MD_Header](./MD.jpg
-)
+# Markdown Language Syntax:
+![MD_Header](./MD_Header.jpeg)
 * *The following are symbols used in Markdown Language formatting.*
 ## HEADERS & ORGANIZATION:
 * `#` ... *Header-Main:* Top Level Project Title
