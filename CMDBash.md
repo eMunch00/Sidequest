@@ -15,7 +15,7 @@
     - (none) *Regular File*	A standard file.
 * `ls -R`
     * **Syntax:** "List Recursive." Displays every file in the current directory and all files within sub-directories.
-## Directory: Navigation
+## Directory: Navigation:
 * `cd [FOLDER_NAME]`
     **Syntax:** "Change Directory." Moves the terminal focus into the specified folder. Use `cd ..` to move up one level.
     - `Cd` change directory
@@ -24,8 +24,10 @@
     - `../..`Moves up two trees
     - `../folder1`Moves up one folder then into sub-folder1
     - `.` References current folder, used for non-navigation commands.
+## Directory: Root/Home:
     - `/` Root directory, parent tree of everything.
-## Directory: Make
+    - `~` Home directory, users profile personal directory
+## Directory: Make:
 * `mkdir [FOLDER_NAME]`
     * **Syntax:** "Make Directory." Creates a new folder with the specified name in your current location.
     - `Mv [folder-name] /new-folder-path` *Move a folder from one directory to another*
