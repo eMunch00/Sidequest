@@ -10,7 +10,8 @@
 1. [Github_Cheat-Sheet](Github_ChtSht.md)
 2. [Github_Project-Start](./github_ProjStart.md)
 * Gemini CLI Notes:
-1. [Gemini_CLI](./GemCLI.md)
+1. [GeminiCLI_Cheat-Sheet](./GemCLI.md)
+2. [GeminiCLI_SOP](./GemCLI-SOP.md)
 * JavaScript Notes:
 1. [Javascript_Notes](javascript.md)
 * Future Notes... *haven;t learned these yet...*

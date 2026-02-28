@@ -27,7 +27,7 @@
 ## Directory: Root/Home:
     - `/` Root directory, parent tree of everything.
     - `~` Home directory, users profile personal directory
-## Directory: Make:
+## Directory: Make:1
 * `mkdir [FOLDER_NAME]`
     * **Syntax:** "Make Directory." Creates a new folder with the specified name in your current location.
     - `Mv [folder-name] /new-folder-path` *Move a folder from one directory to another*

@@ -56,6 +56,7 @@
     * **Syntax:** "Branch." Lists all local timelines. The one with the asterisk (*) is where you are currently standing.
 * `git checkout -b [NEW_BRANCH_NAME]`
     * **Syntax:** "Checkout New Branch." Creates a new branch and switches to it.
+    * *Note* Branch names cannot contain spaces
 * `git checkout [BRANCH_NAME]`
     * **Syntax:** "Checkout." Switches your terminal and your physical files back to the specified existing branch.
 * `git merge [SOURCE_BRANCH]`
