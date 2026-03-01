@@ -6,6 +6,27 @@
 - `/help` will print the full list into command window with descriptions
 - `/stats` shows weight (token count, massage count, file size) of current session.
 
+## RAPID FIRE LIST FROM EX#4
+- `/auth` command ... ???
+- `/book` command ... ???
+- `/clear` command, clears the Coversation List
+- `/Copy` command, copies last response/output to the clipboard, usefull for pasting code into files.
+- `/Docs` command, opens GemCLI docs in a browser ... use case?
+- `/Directory` command, provide path to another directory for CLI to reference.
+- `/Extensions` ... ???
+- `/Model` *command*, allows user to change between CLI Models.
+- `/Stats Model` *command/type* displays API & Token usage.
+- `/Memory refresh` *command/type* directs CLI to rescan docs and commit to local memory (conversation list?)
+- `/Memory add [...]` *command/type* allows user to add direction to overall Gemini.md file, for use across all CLI projects.
+- `/Theme` *command* opens dialog to change the visual theme for CLI.
+- `/Settings` *command* opens dialog box containing user/workspace/system settings.
+
+## @DIRECTORY/FILE:
+* when providing directions to GemCLI you can target these directions to a specific file by targeting the file with `@`
+- `[direction] @[Path/file.name] *example syntax*
+**Gemini CLI Companion** is extension app for VSCode. If enabled GeminiCLI will target any direction provided to the currently selected file. Further this app will direct GeminiCLI to selected code (highlited) within a file.
+
+
 ## LAUNCH GEMINI CLI IN NEW PROJECT
 - `Gemini` will launch in bash.
 - `/init` Create Gemini.md (markdown file) within a project. This can be used to provide project specific commands to GemCLI.
