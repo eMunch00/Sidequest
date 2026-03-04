@@ -58,4 +58,20 @@
 - `/chat resume base-project` restores save point 'base-project'.
     * resume to base-project (main branch) when starting a new git-branch, this starts the new developement branch with a fresh context window. 
 
+## API KEYS WITH GEMINI:
+- **Copy Key from web** loginto account at www:/aistudio.google.com. Select or set up new project to run the API with. Select 'create new API key', enter name of key and associated project for the key. Copy key from dialog window.
+- **Run GemCLI with Key** In VSCode, run Gemini in bash.
+- `/auth` command to open dialog window, select "use gemini API key", paste key and press enter. response should return 'logged in'*all work from this point will be with Gemini via API*
+
+## CUSTOM COMMANDS:
+**Create .gemini & commands folders** Commands must be located in a folder named 'commands' within a '.gemini' folder that is in the project folder. Each command must be a `.toml` file, named per the command it activates.
+- `mkdir ".gemini"` ... make new directory in root project folder named '.gemini'
+- `mkdir .gemini/commands` ... makes a new 'commands' folder within the '.gemini'
+- `touch .gemini/commands/[command_name.toml]` ... make .toml file with name.
+**Define the Command** The command will be defined by 'keys=strings' each 'key' will be a single word command followed by a 'string' sentence that gives direction to execute. within the .toml file set the following key=string,
+- 1. description = 'define task and test file'
+- 2. prompt = 'sasf'
+
+
+
 
