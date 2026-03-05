@@ -1,6 +1,7 @@
 # GEMINI CLI COMMANDS
 
 ## GENERAL USE
+- `!` will enable direct interface with BASH, bypassing gemini for quick CMD prompts.
 - `/exit` (or) `/quit` close gemini CLI
 - `/` Will display a full list of commands
 - `/help` will print the full list into command window with descriptions

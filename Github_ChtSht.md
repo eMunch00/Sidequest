@@ -34,12 +34,13 @@
 ## 📝 Commit (Save point on current branch)
 *Commits cannot be deleted, only merged and squashed*
 *Commits must be staged 'add' then committed 'commit -m'*
-* `git status`
-    * **Syntax:** "Status." Shows which files have been modified (Red), staged (Green), or are currently untracked by Git.
+* `git status` 
+* **Syntax:** "Status." Shows which files have been modified (Red), staged (Green), or are currently untracked by Git.
+    * `git status --short` provides short list of unsaved files. 
 * `git add [FILE_NAME]`{Targeted stage of one file}
-* `git add .` {stages all files & folders in current directory}
-* `git add -A` {stages ALL files & folder in entire branch}
 * **Syntax:** "Add." stages file to prepare for a commit.
+    * `git add .` {stages all files & folders in current directory}
+    * `git add -A` {stages ALL files & folder in entire branch}
 * `git commit -m "[YOUR_MESSAGE]"`
     * **Syntax:** "Commit with Message." Permanently etches the staged changes into the local ledger with a descriptive note.
 * `git log --oneline`
