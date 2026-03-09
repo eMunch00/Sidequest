@@ -65,7 +65,7 @@
 * `git merge --squash [SOURCE_BRANCH]`
     * **Syntax:** "Squash Merge." Compresses all commits from the source branch into one commit on current timeline.
 * `git branch -d [BRANCH_NAME]`
-    * **Syntax:** "Delete Branch." Removes the branch "scaffolding" after it has been merged. Use `-D` to force delete unmerged branches.
+    * **Syntax:** "Delete Branch." Removes the branch after it has been merged. Use `-D` to force delete unmerged branches.
 
 ## ☁️ Push & Pull (Up/Download with GitHub)
 * `git push -u origin main`

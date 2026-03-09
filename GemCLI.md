@@ -6,6 +6,7 @@
 - `/` Will display a full list of commands
 - `/help` will print the full list into command window with descriptions
 - `/stats` shows weight (token count, massage count, file size) of current session.
+-
 
 ## RAPID FIRE LIST FROM EX#4
 - `/auth` command ... ???
@@ -72,6 +73,8 @@
 **Define the Command** The command will be defined by 'keys=strings' each 'key' will be a single word command followed by a 'string' sentence that gives direction to execute. within the .toml file set the following key=string,
 - 1. description = 'define task and test file'
 - 2. prompt = 'sasf'
+... need more info here please...
+**Reload Command** after editing a command in an active CLI session, parse `/commands reload` to inject edits to TOML file into the current session.
 
 
 
