@@ -72,8 +72,9 @@
     *   `touch gitignore` starts a new text file titled 'gitignore'
     *   This file can be used to exclude files/directories from being pushed to github repository. In the body of the text file, Enter the name of files or directories you would like to be excluded from future push commands... *this is usefull to protect documents or info you dont want added on a public repository*
 **Perform Initial Sync**
-    * `git add .` stages contents of project and folders
-    * `git commit -m "Origin Commit"` 
+    * `git add .` *stages contents of project and folders*
+    * `git commit -m "Origin Commit"` *establishes main commit*
+    * `git branch -M main` *establish main branch*
     * `git push -u origin main`
     * *Note: The `-u` wires the folders together for future one-word "git push" commands.*
 
