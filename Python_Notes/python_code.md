@@ -2,8 +2,11 @@
 
 ## BASH commands:
 * `py` *opens REPL: Read Evaluate Print Loop environment*
-    - `>>>` *text after ripple will be accessed by python interpreter*
+    - `>>>` *text after REPL will be accessed by python interpreter*
 * `quit ()` *leave REPL environment*
+
+## Format & Notes
+* `#` *Comments* use to start a string of notes
 
 ## pathlib: The Modern Way to Handle Files
 **What it is** In the old days, developers treated file paths like `C:\Users\Documents\Spec.pdf` as plain text. This caused massive headaches because Windows uses backslashes (\) while almost every other system uses forward slashes (/). pathlib solves this by treating a path as a smart object that "knows" how to behave on any computer.
